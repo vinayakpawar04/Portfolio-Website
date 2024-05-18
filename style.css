@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(6, 4, 27);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(14, 4, 68);
+}
+
+.left{
+    font-size: 30px;
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+    margin-right: -100px;
+}
+
+.right ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+}
+
+.right ul li a:hover{
+    color: violet
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px; 
+}
+
+.purple-text{
+    color: purple;
+}
+.firstsection > div{
+    width: 40%;
+
+}
+.leftsection{
+    font-size: 3rem;
+}
+
+.rightsection img{
+    width: 80%;
+    margin: 0px;
+}
+
+main hr{
+    height: 1.5px;
+    margin: 40px 80px;
+    background-color: rgb(65, 3, 137);
+    border: none;
+}
+
+.secondsection{
+    text-align: center ;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(25, 79, 108);
+    padding: 20px;
+    margin: 40px 0px;
+    
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer{
+    background-color: rgb(6, 8, 37);
+    margin-top: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+    color: beige;
+}
+
+footer .first-footer {
+    width: 200px;
+}
+
+footer .third-footer {
+    width: 400px;
+}
+
+footer .footer-reserve{
+    color: gray;
+    padding: 15px 0px;
+}
+
+footer .footer-reserve{
+    justify-content: baseline;
+    text-align: center;
+}

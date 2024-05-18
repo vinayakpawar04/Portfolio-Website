@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">VINAYAK'S Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, my name is <span class="purple-text">Vinayak</span> and i am passionate<br>
+                <span id="element" class="purple-text"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="image">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondsection">
+
+            <table class="center">
+                <h1>EDUCATION</h1>
+                <tr>
+                    <th>Degree</th>
+                    <th>School/College Name</th>
+                    <th>Percentage</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>Bsc. Comp. Sci (BCS)</td>
+                    <td>Sadguru Gadage Maharaj College, Karad</td>
+                    <td>82.80%</td>
+                    <td>8.67</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary Certificate (HSC)</td>
+                    <td>Balasaheb Desai College, Patan</td>
+                    <td>81.50%</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Secondary School Certificate (SSC)</td>
+                    <td>New English Medium School, Belwade Khurd</td>
+                    <td>81.20%</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="first-footer">
+                    <h3>VINAYAK'S Portfolio Website</h3>
+                </div>
+                <div class="second-footer">
+                    <b>Contact :</b>
+                    <li>Mo : +91 7558482766</li>
+                    <li>E-mail : vinayakpawar0240@gmail.com</li>
+                </div>
+                <div class="third-footer">
+                    <b>Media Links :</b>
+                    <li>GitHub : https://github.com/vinayakpawar04</li>
+                    <li>Linked-In : https://WWW.linkedin.com/in/vinayak-pawar-621453281</li>
+                </div>
+                <div class="fourth-footer">
+                    <b>Services :</b>
+                    <li>Web Developement</li>
+                    <li>Web Designing</li>
+                    <li>Front-end Developement</li>
+                    <li>Back-end Developement</li>
+                </div>
+            </div>
+            <div class="footer-reserve">
+                Copyrights &copy; vinayaksportfoliowebsite.com | All rights reserved
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Developer', 'Back-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
